@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is an ecommerce projects for making prince express">
+    <title>Ecommerce Projects</title>
+    <!-- for font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- for google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quintessential&display=swap" rel="stylesheet">
+    <!-- for css -->
+    <link rel="stylesheet" href="prince.css">
+</head>
+<body>
+    <!-- navbar starts here -->
+    <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+    <nav id="menu" class="hidden">
+    <ul class="nav-upper flex-space-around">
+        <li class="nav_list">
+        <a href="index.html" class="nav_link">Home</a></li>
+    
+        <li class="nav_list">
+        <a href="register.html" class="nav_link">Register</a></li>
+    
+        <li class="nav_list">
+        <a href="login.html" class="nav_link">Login</a></li>
+    
+        <li class="nav_list">
+        <a href="index.html" class="nav_link">Logout</a></li>
+    
+        <li class="nav_list">
+        <a href="contact.html" class="nav_link">Contact</a></li>
+    
+        <li class="nav_list"><a href="profile.html" class="nav_link">
+            <img class="profile-icon" src="./images/photo.jpg" alt="">
+        </a></li>
+    </ul>
+
+    <ul class="nav-lower flex-space-around">
+        <li class="nav_list">
+        <a href="index.html" class="nav_link nav_brand">Prince Express</a></li>
+        
+        <li class="nav_list"><a href="/index.html" class="nav_link">
+            <span>
+                <i class="fa-sharp fa-solid fa-cart-shopping">Cart 2 products - $124.40</i>
+            </span>
+        </a></li>
+    </ul>
+</nav>
+    <!-- navbar ends here -->
+
+     <!-- header starts here -->
+ 
+     <header class="header">
+        <div class="banner flex-space-around">
+            <marquee class="banner-title" behavior="" direction="">50% Sales going on</marquee>
+            <div class="features flex-space-around">
+               <article class="feature">
+                    <i class="fa-solid fa-truck feature-icon"></i>
+                    <h3>Shipping within 7days</h3>
+               </article> 
+               <article class="feature">
+                <i class="fa-brands fa-rocketchat feature-icon"></i>
+                <h3>Support 24/7</h3>
+           </article>
+           <article class="feature">
+            <i class="fa-regular fa-credit-card feature-icon"></i>
+            <h3>Safe payment</h3>
+       </article>
+            </div>
+        </div>
+    </header>
+    <!-- header starts here -->
+ <main>
+  <section class="contact-section">
+    <h2 class="section-title text-center">Contact Us</h2>
+    <div class="contact-container flex-center">
+        <form action="" class="form card">
+            <div class="form-controls flex-center">
+                <label for="name">Name</label>
+                <input type="text" id="name" required autocomplete="name">
+            </div>
+            <div class="form-controls flex-center">
+                <label for="email">Email</label>
+                <input type="email" id="email" required autocomplete="email">
+            </div>
+            <div class="form-controls flex-center">
+                <label for="message">Message</label>
+                <textarea name="message" id="message"></textarea>
+            </div>
+            <div class="form-controls flex-center form-btn-field">
+                <button type="submit" class="btn contact-btn">Submit</button>
+            </div>
+        </form>
+        <div class="contact-address flex-space-around">
+           <address>
+            <h4>Address:</h4>
+            <p>42 high street</p>
+            <p>Sherpur Sadar, Sherpur</p>
+            <br>
+
+
+            <span>Call:</span>
+            <a href="tel:+880124555245">+01254525521</a>
+           </address> 
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3747014.237523062!2d87.70907501825336!3d23.489535566989797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30adaaed80e18ba7%3A0xf2d28e0c4e1fc6b!2sBangladesh!5e0!3m2!1sen!2sbd!4v1708410502096!5m2!1sen!2sbd" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+  </section>
+ </main>
+    <!--footer starts here -->
+   <footer class="footer flex-space-around">
+    <div>
+        <label for="subscribe">Subscribe to Newsletter</label>
+        <input type="email" id="subscribe" name="subscribe" class="footer_input" placeholder="Your Email Address"/>
+        <button class="btn btn-subscribe">subscribe</button>
+    </div>
+    <div>
+        <p>
+            &copy; Copyright 2023 Prince Express. All rights served
+        </p>
+    </div>
+   </footer>
+    <!--footer ends here -->
+
+    <script src="./scripts/index.js"></script> 
+</body>
+</html>
